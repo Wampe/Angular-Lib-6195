@@ -22,7 +22,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "lib6195.js",
-    "flatModuleId": "lib6195"
+    "flatModuleId": "@wampe/lib-6195"
   },
   "files": [
     "./index.ts"

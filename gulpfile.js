@@ -21,7 +21,12 @@ gulp.task('clean:dist', function () {
 
   // Delete contents but not dist folder to avoid broken npm links
   // when dist directory is removed while npm link references it.
-  return deleteFolders([distFolder + '/**', '!' + distFolder]);
+	// return deleteFolders([distFolder + '/**', '!' + distFolder]);
+	return deleteFolders([
+    distFolder + '/**',
+    '!' + distFolder,
+    '!' + distFolder + '/*.umd.js'
+  ]);
 });
 
 /**

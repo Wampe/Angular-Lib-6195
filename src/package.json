@@ -1,0 +1,28 @@
+{
+  "name": "lib6195",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wampe/Angular-Lib-6195.git"
+  },
+  "author": {
+    "name": "Wampe",
+    "email": "test@test.test"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wampe/Angular-Lib-6195.git/issues"
+  },
+  "main": "lib6195.umd.js",
+  "module": "lib6195.js",
+  "jsnext:main": "lib6195.js",
+  "typings": "lib6195.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
